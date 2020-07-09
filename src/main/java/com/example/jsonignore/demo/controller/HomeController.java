@@ -39,7 +39,7 @@ public class HomeController{
         List<User> data = new ArrayList();
 
         try{
-
+           //new line 1
 
             mapper.setAnnotationIntrospector(new DisablingMyJsonIgnoreIntrospector());
 
